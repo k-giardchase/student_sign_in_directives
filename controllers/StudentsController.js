@@ -11,4 +11,6 @@ studentSignIn.controller('StudentsCtrl', function StudentsCtrl($scope, StudentsF
       StudentsFactory.deleteStudent(student);
     };
 
+    var app = this;
+    app.message = "hello";
 });
