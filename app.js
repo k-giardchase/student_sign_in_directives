@@ -34,12 +34,3 @@ var studentSignIn = angular.module('studentSignIn', ['ui.router']);
       }
     }
   });
-
-  // courseRoster.directive("signin", function() {
-  // return {
-  //    restrict: "A",
-  //    link: function () {
-  //        alert("Hurry!")
-  //    }
-  //   }
-  // });
